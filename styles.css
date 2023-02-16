@@ -1,11 +1,7 @@
-/*Fonts*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*Variables*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 :root {
   --clr-primary-5: #0b620e;
-  --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
   --clr-primary-8: hsl(0, 64%, 45%);
   --clr-primary-9: hsl(205, 90%, 88%);
   /* grey used for paragraphs */
@@ -107,7 +103,6 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 .btn {
   text-transform: uppercase;
   background: transparent;
@@ -126,7 +121,6 @@ p {
   color: var(--clr-white);
   background: var(--clr-black);
 }
-/* section */
 .section {
   padding: 5rem 0;
 }
@@ -147,7 +141,6 @@ main {
   display: grid;
   place-items: center;
 }
-/*Grocery List*/
 .section-center {
   background: var(--clr-white);
   border-radius: var(--radius);
@@ -248,12 +241,6 @@ main {
 .grocery-item:hover .title {
   color: var(--clr-grey-5);
 }
-.title {
-  margin-bottom: 0;
-  color: var(--clr-grey-1);
-  letter-spacing: 2px;
-  transition: var(--transition);
-}
 .edit-btn,
 .delete-btn {
   background: transparent;
@@ -294,9 +281,6 @@ main {
 .clear-btn:hover {
   color: var(--clr-red-dark);
 }
-.fas {
-  padding: 10px;
-}
 footer {
   color: white;
   text-align: center;
@@ -306,8 +290,6 @@ footer {
 .footer-copy {
   font-size: 0.825rem;
   color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
 }
 .speedywebz {
   color: #ffb700;
