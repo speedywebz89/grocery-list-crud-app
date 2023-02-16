@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taco Tuesday Grocery List</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section class="section-center">
+      <!-- form -->
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>
+          <i class="fas fa-pepper-hot" style="color: rgb(89, 151, 23)"></i>
+          Grocery List
+          <i class="fas fa-pepper-hot" style="color: rgb(194, 50, 17)"></i>
+        </h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. cilantro" />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <button class="clear-btn">clear items</button>
+      </div>
+    </section>
+
+    <!--List-->
+    <div class="grocery-container">
+      <div class="grocery-list"></div>
+      <!--button-->
+      <button type="button" class="clear-btn">Clear Items</button>
+    </div>
+    <footer>
+      <p class="footer-copy">
+        &copy; Created by
+        <a href="mailto:speedywebz89@gmail.com"
+          ><span class="speedywebz">speedywebz89</span></a
+        >
+        | All Rights Reserved 2023 &copy;
+      </p>
+    </footer>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
